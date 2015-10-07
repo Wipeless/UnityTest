@@ -14,7 +14,7 @@ public class Interface_Gameplay : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Text_Score.text = "Your butt!: " + GameManager.GameScore;
+        Text_Score.text = "Wieners in Danny's Mouth: " + GameManager.GameScore;
         Text_TimeLimit.text = "Remaining Time: " + (int)GameManager.GameRemainingTime;
 	}
 }
